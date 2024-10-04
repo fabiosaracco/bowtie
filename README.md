@@ -1,22 +1,15 @@
 # README
 
-This is a toolbox of function for personal use.
-It is part of Fabio's PErsonal PAckage (PePa) repository's project.
+bowtie decompose a directed network in its bow-tie structure, following the definition in [Yang et al, "Bow-tie decomposition in directed graphs," 14th International Conference on Information Fusion, Chicago, IL, USA, 2011](https://ieeexplore.ieee.org/document/5977625)
 
-## Setup
-It should probably install automatically.
+# Install
+Simply
 
-
-## Contents (so far)
-
-* config.py: it contains all tokes and password. DO NOT SHARE THE PRESENT PACKAGE WITH NONE!!!!
-* email_sender.py: it does what it says. it contains an homonimous function
-* setup.py: the setup, easy as this.
-* updater.py: it just contain a function (update) returning the string in object and information about the time when the function was called. 
-* lour.py: the celebrated (by who?) reshuffled Louvain. 
-* bow_tie_decomposition.py: decomposing a directed network following bow-tie scheme.
+```
+pip install git+https://github.com/fabiosaracco/bowtie.git
+```
 
 ## Licence
 
-Tricky question! None, since it is a PePa!
+MIT
 
