@@ -12,7 +12,11 @@ def edges2bowtie(edge_list):
     g.add_edges(edge_list)
     # calculate the bowtie
     david=bowtie(g)
-    return dict(zip(g.vs['name'], david.membership))
+    if 'name' in g.vs.attributes():
+        return dict(zip(g.vs['name'], david.membership))
+    else:
+        return dict(zip(g.vs.indices, david.membership))
+
 
 class bowtie:
     '''

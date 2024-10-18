@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='bowtie',
-    version='0.1.0',
+    version='0.1.1',
     author='fabiosaracco',
     description='Built upon igraph, bowtie decompose a directed network according to the bow-tie decomposition',
     long_description=long_description,
